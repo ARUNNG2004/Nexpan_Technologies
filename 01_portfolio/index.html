@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <img src="images/digital-art-style-.jpg" alt="">
+        <p>Web Developer | Designer | Coder</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am <strong>ARUN N G</strong>, a passionate web developer with experience in various technologies.</p>
+        <p>I graduated from <strong>ANNA UNIVERSITY</strong> with a degree in <strong>B.E</strong>. With <strong>2</strong> years of experience, I have worked on numerous projects that demonstrate my skills in web development.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Respansive Landing page</h3>
+            <p>Discover our latest work and projects showcased in an engaging and interactive format. From concept to completion, delve into our portfolio featuring diverse industries and innovative solutions.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <a href="https://github.com/ARUNNG2004/PRODIGY_WD_02">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Weather App</h3>
+            <p>A weather application that provides real-time weather information based on user location or search input.</p>
+            <p id="technologies"><strong>Technologies:</strong> API CALL..</p>
+            <a href="https://github.com/ARUNNG2004/PRODIGY_WD_02">View Project</a>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <h3>HTML</h3>
+            <p>Proficient in creating structured and semantic HTML documents.</p>
+        </div>
+        <div class="skill">
+            <h3>CSS</h3>
+            <p>Experienced in styling websites with CSS.</p>
+        </div>
+        <div class="skill">
+            <h3>JavaScript</h3>
+            <p>Skilled in building interactive web applications using JavaScript and frameworks like React.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
