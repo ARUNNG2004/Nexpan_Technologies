@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Quiz Application</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="homepage" class="page">
+      <h1>Welcome to the Quiz</h1>
+      <p>Select a quiz to start:</p>
+      <button onclick="startQuiz()">General Knowledge Quiz</button>
+    </div>
+
+    <div id="quizpage" class="page" style="display:none;">
+      <h2 id="question">Question will appear here</h2>
+      <div id="options">
+        </div>
+      <p id="timer">Time left: <span id="time">10</span> seconds</p>
+      <button onclick="submitAnswer()">Submit</button>
+    </div>
+
+    <div id="scoreboard" class="page" style="display:none;">
+      <h2>Quiz Completed</h2>
+      <p>Your Score: <span id="score">0</span></p>
+      <button onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
