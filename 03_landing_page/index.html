@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EcoSmart offers innovative smart home solutions to optimize energy use and enhance security. Discover our cutting-edge technology for a smarter, greener home.">
+    <meta name="keywords" content="smart home, energy efficiency, home security, EcoSmart, smart technology">
+    <meta name="author" content="EcoSmart Inc.">
+    <title>ecosmart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>EcoSmart</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-right" >
+            <h2>Revolutionize Your Home with Smart Technology</h2>
+            <p>Optimize energy usage and enhance security with EcoSmart's innovative solutions. Join thousands of satisfied customers who have made their homes smarter and greener.</p>
+            <a data-aos="fade-right"  data-aos-duration="3000" href="#contact" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="feature-item">
+                <img src="asserts/energyeff.jpg" alt="Energy Efficiency">
+                <h3>Energy Efficiency</h3>
+                <p>Track and reduce your energy consumption, leading to substantial cost savings with real-time analytics.</p>
+            </div>
+            <div class="feature-item">
+                <img src="asserts/security.jpg" alt="Advanced Security">
+                <h3>Advanced Security</h3>
+                <p>Experience 24/7 monitoring with motion detectors, smart locks, and real-time alerts.</p>
+            </div>
+            <div class="feature-item">
+                <img src="asserts/integration.jpg" alt="Easy Integration">
+                <h3>Easy Integration</h3>
+                <p>Seamlessly connects with existing devices for a hassle-free setup and intuitive control.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div data-aos="fade-up"  class="testimonial-item">
+                <p>"EcoSmart has transformed the way we manage our home. The energy savings are incredible!"</p>
+                <cite>— Sarah L., EcoSmart User</cite>
+            </div>
+            <div data-aos="fade-down" class="testimonial-item">
+                <p>"The security features are top-notch. I feel safer knowing EcoSmart has my back."</p>
+                <cite>— James R., EcoSmart User</cite>
+            </div>
+            <div class="testimonial-item" data-aos="fade-left">
+                <p>"I love how easy it was to integrate EcoSmart with my existing home automation system."</p>
+                <cite>— Maria K., EcoSmart User</cite>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Our Pricing Plans</h2>
+            <div  data-aos="flip-left" class="pricing-plan">
+                <h3>Basic Plan</h3>
+                <p>$19.99/month</p>
+                <ul>
+                    <li>Basic energy monitoring</li>
+                    <li>Standard security features</li>
+                    <li>Email support</li>
+                </ul>
+                <a href="#contact" class="btn">Sign Up</a>
+            </div>
+            <div  data-aos="flip-right" class="pricing-plan">
+                <h3>Standard Plan</h3>
+                <p>$39.99/month</p>
+                <ul>
+                    <li>Advanced energy monitoring</li>
+                    <li>Enhanced security features</li>
+                    <li>Phone support</li>
+                </ul>
+                <a href="#contact" class="btn">Sign Up</a>
+            </div>
+            <div class="pricing-plan"  data-aos="flip-down">
+                <h3>Premium Plan</h3>
+                <p>$59.99/month</p>
+                <ul>
+                    <li>Comprehensive energy analytics</li>
+                    <li>Premium security features</li>
+                    <li>24/7 priority support</li>
+                </ul>
+                <a href="#contact" class="btn">Sign Up</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About EcoSmart</h2>
+            <p>EcoSmart is committed to revolutionizing home automation with our state-of-the-art smart technology. Our mission is to provide energy-efficient and secure solutions that enhance the quality of life for our customers.</p>
+            <h3>Our Mission</h3>
+            <p>To deliver innovative smart home solutions that optimize energy use and provide advanced security, making homes smarter and more sustainable.</p>
+            <h3>Our Team</h3>
+            <p>Our team of experts combines decades of experience in technology and home automation. We are passionate about creating products that make a real difference in people's lives.</p>
+            <div class="team">
+                <h4>John Doe</h4>
+                    <p>CEO & Founder</p>
+                <div class="team-member">
+                    <img src="asserts/ceo.jpg" alt="John Doe">
+                    
+                </div>
+               <h4>Jane Smith</h4>
+                    <p>CTO</p>
+                <div class="team-member">
+                    <img src="asserts/cc.jpg" alt="Jane Smith">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or need support? Reach out to us using the form below or contact us directly.</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <h3>Our Office</h3>
+                <p>123 Green Street, Suite 456<br>EcoCity, EC 78910</p>
+                <p>Email: <a href="mailto:support@ecosmart.com">support@ecosmart.com</a></p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EcoSmart. All rights reserved. <a href="#privacy-policy">Privacy Policy</a> | <a href="#terms-of-service">Terms of Service</a></p>
+        </div>
+    </footer>
+
+  
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
